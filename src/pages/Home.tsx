@@ -89,7 +89,7 @@ const Home = () => {
           name="description"
           content="Professional Balcony, Pigeon, Children and Industrial Safety Nets Installation services in Bengaluru. Request a Callback Today."
         />
-        <link rel="canonical" href="https://www.example.com/" />
+        <link rel="canonical" href="https://www.pegionsafetynets.in/" />
       </Helmet>
       <Hero />
 

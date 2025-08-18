@@ -76,7 +76,7 @@ const Hero = () => {
                 to="/about"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 rounded-lg font-semibold text-lg transition-all duration-300"
               >
-                Learn More
+                View Details
               </Link>
             </motion.div>
 
