@@ -4,6 +4,7 @@ import ServiceCard from '../components/ServiceCard';
 import CallbackForm from '../components/CallbackForm';
 import AnimatedSection from '../components/AnimatedSection';
 import { Shield, Baby, Building, Wind, Factory, Bird, Grid3X3 } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
   const services = [
@@ -82,6 +83,14 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Anshu Safety Nets | Balcony Safety Nets in Bengaluru</title>
+        <meta
+          name="description"
+          content="Professional Balcony, Pigeon, Children and Industrial Safety Nets Installation services in Bengaluru. Request a Callback Today."
+        />
+        <link rel="canonical" href="https://www.example.com/" />
+      </Helmet>
       <Hero />
 
       {/* Services Section */}

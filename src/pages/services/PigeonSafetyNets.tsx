@@ -2,6 +2,7 @@ import React from 'react';
 import AnimatedSection from '../../components/AnimatedSection';
 import CallbackForm from '../../components/CallbackForm';
 import { Bird, Shield, CheckCircle, Leaf } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const PigeonSafetyNets = () => {
   const features = [
@@ -38,6 +39,14 @@ const PigeonSafetyNets = () => {
 
   return (
     <div className="pt-16">
+      <Helmet>
+        <title>Anshu Safety Nets | Balcony Safety Nets in Bengaluru</title>
+        <meta
+          name="description"
+          content="Professional Balcony, Pigeon, Children and Industrial Safety Nets Installation services in Bengaluru. Request a Callback Today."
+        />
+        <link rel="canonical" href="https://www.example.com/" />
+      </Helmet>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-purple-50 to-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

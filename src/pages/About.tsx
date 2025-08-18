@@ -1,6 +1,7 @@
 import React from 'react';
 import AnimatedSection from '../components/AnimatedSection';
 import { Shield, Users, Award, Clock, CheckCircle, Star } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const About = () => {
   const features = [
@@ -39,6 +40,14 @@ const About = () => {
 
   return (
     <div className="pt-16">
+      <Helmet>
+        <title>Anshu Safety Nets | Balcony Safety Nets in Bengaluru</title>
+        <meta
+          name="description"
+          content="Professional Balcony, Pigeon, Children and Industrial Safety Nets Installation services in Bengaluru. Request a Callback Today."
+        />
+        <link rel="canonical" href="https://www.example.com/" />
+      </Helmet>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 to-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
