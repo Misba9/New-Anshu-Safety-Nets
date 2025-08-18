@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import AnimatedSection from '../../components/AnimatedSection';
 import CallbackForm from '../../components/CallbackForm';
 import { Shirt, Wind, CheckCircle, Home } from 'lucide-react';
