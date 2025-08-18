@@ -14,7 +14,8 @@ import IndustrialSafetyNets from './pages/services/IndustrialSafetyNets';
 import BalconyClothesHanger from './pages/services/BalconyClothesHanger';
 import PigeonSafetyNets from './pages/services/PigeonSafetyNets';
 import BalconyInvisibleGrid from './pages/services/BalconyInvisibleGrid';
-import { Analytics } from "@vercel/analytics/next"
+import ScrollToTop from './components/ScrollToTop';
+// import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <div className="min-h-screen bg-white">
         <Header />
         <main>
+           <ScrollToTop /> 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -36,7 +38,7 @@ function App() {
             <Route path="/balcony-invisible-grid" element={<BalconyInvisibleGrid />} />
           </Routes>
         </main>
-        <Analytics />
+        {/* <Analytics /> */}
         <Footer />
         <FloatingContacts />
       </div>

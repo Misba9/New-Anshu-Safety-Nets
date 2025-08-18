@@ -39,7 +39,7 @@ const BalconyInvisibleGrid = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Helmet>
         <title>Anshu Safety Nets | Balcony Safety Nets in Bengaluru</title>
         <meta
