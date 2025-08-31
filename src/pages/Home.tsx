@@ -54,7 +54,7 @@ const Home = () => {
       title: 'Balcony Invisible Grid',
       description: 'Invisible grids that provide safety without compromising the aesthetic appeal of your balcony view.',
       icon: <Grid3X3 className="h-6 w-6 text-cyan-600" />,
-      imageUrl: '/images/Balcony-Invisible-Grid.jpg',
+      imageUrl: '/images/Balcony-Invisible-Grid-pages.png',
       link: '/balcony-invisible-grid',
       features: ['Nearly invisible', 'Modern design', 'Unobstructed view']
     }

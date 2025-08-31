@@ -91,7 +91,7 @@ const BalconyInvisibleGrid = () => {
             <AnimatedSection animation="slideRight">
               <div className="relative">
                 <img
-                  src="/images/Balcony-Invisible-Grid.jpg"
+                  src="/images/Balcony-Invisible-Grid-pages.png"
                   alt="Balcony invisible grid system"
                   className="rounded-2xl shadow-2xl"
                 />

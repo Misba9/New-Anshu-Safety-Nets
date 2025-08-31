@@ -90,7 +90,7 @@ const BalconySafetyNets = () => {
             <AnimatedSection animation="slideRight">
               <div className="relative">
                 <img
-                  src="/images/Balcony-Safety-Nets.jpg"
+                  src="/images/Balcony-Safety-Nets.png"
                   alt="Balcony safety nets installation"
                   className="rounded-2xl shadow-2xl"
                 />

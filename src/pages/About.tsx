@@ -82,7 +82,7 @@ const About = () => {
             <AnimatedSection animation="slideRight">
               <div className="relative">
                 <img
-                  src="/images/About-Us.jpg"
+                  src="/images/about-us.jpg"
                   alt="Professional safety net installation"
                   className="rounded-2xl shadow-2xl"
                 />
@@ -189,22 +189,22 @@ const About = () => {
             <AnimatedSection animation="slideRight">
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/images/about-us-1.jpeg"
                   alt="Safety installation 1"
                   className="rounded-lg shadow-lg"
                 />
                 <img
-                  src="https://images.pexels.com/photos/434213/pexels-photo-434213.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/images/about-us-2.jpg"
                   alt="Safety installation 2"
                   className="rounded-lg shadow-lg mt-8"
                 />
                 <img
-                  src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/images/about-us-3.jpg"
                   alt="Safety installation 3"
                   className="rounded-lg shadow-lg -mt-8"
                 />
                 <img
-                  src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="/images/about-us-4.jpg"
                   alt="Safety installation 4"
                   className="rounded-lg shadow-lg"
                 />

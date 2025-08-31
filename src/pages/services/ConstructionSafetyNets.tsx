@@ -90,7 +90,7 @@ const ConstructionSafetyNets = () => {
             <AnimatedSection animation="slideRight">
               <div className="relative">
                 <img
-                  src="/images/Construction-Safety-Nets.jpg"
+                  src="/images/Construction-Safety-Nets-pages.png"
                   alt="Construction safety nets installation"
                   className="rounded-2xl shadow-2xl"
                 />

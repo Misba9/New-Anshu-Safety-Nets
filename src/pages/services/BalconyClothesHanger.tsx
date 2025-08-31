@@ -90,7 +90,7 @@ const BalconyClothesHanger = () => {
             <AnimatedSection animation="slideRight">
               <div className="relative">
                 <img
-                  src="/images/Balcony-Clothes-Hanger.jpg"
+                  src="/images/Balcony-Clothes-Hanger.png"
                   alt="Balcony clothes hanger installation"
                   className="rounded-2xl shadow-2xl"
                 />

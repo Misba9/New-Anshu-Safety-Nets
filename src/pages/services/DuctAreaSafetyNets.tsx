@@ -90,7 +90,7 @@ const DuctAreaSafetyNets = () => {
             <AnimatedSection animation="slideRight">
               <div className="relative">
                 <img
-                  src="/images/Duct-Area-Safety-Nets.jpg"
+                  src="/images/Duct-Area-Safety-Nets.png"
                   alt="Duct area safety nets installation"
                   className="rounded-2xl shadow-2xl"
                 />
