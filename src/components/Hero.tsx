@@ -108,7 +108,7 @@ const Hero = () => {
           >
             <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/Industrial-Safety-Nets.jpg"
                 alt="Safety net installation"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />

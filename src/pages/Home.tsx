@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
 import CallbackForm from '../components/CallbackForm';
@@ -6,13 +6,15 @@ import AnimatedSection from '../components/AnimatedSection';
 import { Shield, Baby, Building, Wind, Factory, Bird, Grid3X3 } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 
+
+
 const Home = () => {
   const services = [
     {
       title: 'Balcony Safety Nets',
       description: 'Premium quality balcony safety nets to prevent accidents and ensure child safety. Durable, weather-resistant, and professionally installed.',
       icon: <Shield className="h-6 w-6 text-blue-600" />,
-      imageUrl: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600',
+      imageUrl: '/images/Balcony-Safety-Nets.jpg',
       link: '/balcony-safety-nets',
       features: ['Weather resistant', 'Child-safe installation', 'Durable materials']
     },
@@ -20,7 +22,7 @@ const Home = () => {
       title: 'Children Safety Nets',
       description: 'Specialized safety nets designed specifically for child protection. Soft, non-toxic materials that provide maximum safety.',
       icon: <Baby className="h-6 w-6 text-green-600" />,
-      imageUrl: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600',
+      imageUrl: '/images/Children-Safety-Nets.jpg',
       link: '/children-safety-nets',
       features: ['Non-toxic materials', 'Child-friendly design', 'Extra strong mesh']
     },
@@ -28,7 +30,7 @@ const Home = () => {
       title: 'Pigeon Safety Nets',
       description: 'Effective bird protection nets that prevent pigeons and other birds from nesting while being humane and safe.',
       icon: <Bird className="h-6 w-6 text-purple-600" />,
-      imageUrl: 'https://images.pexels.com/photos/434213/pexels-photo-434213.jpeg?auto=compress&cs=tinysrgb&w=600',
+      imageUrl: '/images/Pigeon-Safety-Nets.jpg',
       link: '/pigeon-safety-nets',
       features: ['Humane bird deterrent', 'UV resistant', 'Easy maintenance']
     },
@@ -36,7 +38,7 @@ const Home = () => {
       title: 'Construction Safety Nets',
       description: 'Heavy-duty construction safety nets for building sites and industrial applications. Meets all safety standards.',
       icon: <Building className="h-6 w-6 text-orange-600" />,
-      imageUrl: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600',
+      imageUrl: '/images/Construction-Safety-Nets.jpg',
       link: '/construction-safety-nets',
       features: ['Industry standard', 'Heavy-duty material', 'Professional grade']
     },
@@ -44,7 +46,7 @@ const Home = () => {
       title: 'Industrial Safety Nets',
       description: 'Robust industrial safety solutions for warehouses, factories, and commercial spaces. Custom sizes available.',
       icon: <Factory className="h-6 w-6 text-red-600" />,
-      imageUrl: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=600',
+      imageUrl: '/images/Industrial-Safety-Nets.jpg',
       link: '/industrial-safety-nets',
       features: ['Custom sizing', 'Industrial grade', 'Fire resistant options']
     },
@@ -52,7 +54,7 @@ const Home = () => {
       title: 'Balcony Invisible Grid',
       description: 'Invisible grids that provide safety without compromising the aesthetic appeal of your balcony view.',
       icon: <Grid3X3 className="h-6 w-6 text-cyan-600" />,
-      imageUrl: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600',
+      imageUrl: '/images/Balcony-Invisible-Grid.jpg',
       link: '/balcony-invisible-grid',
       features: ['Nearly invisible', 'Modern design', 'Unobstructed view']
     }

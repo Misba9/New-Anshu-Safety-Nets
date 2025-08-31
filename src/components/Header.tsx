@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Shield } from 'lucide-react';
+import { Menu, X, Phone} from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+// import Image from 'images/logo.svg';
 
-const Header = () => {
+function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
@@ -34,7 +35,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-blue-600" />
+            {/* <img src={logo} alt="Anshu Safety Nets" width={32} height={32} /> */}
             <span className="text-xl font-bold text-gray-900">Anshu Safety Nets</span>
           </Link>
 
@@ -64,11 +65,9 @@ const Header = () => {
                 ) : (
                   <Link
                     to={item.path}
-                    className={`px-3 py-2 text-sm font-medium transition-colors ${
-                      isActive(item.path)
+                    className={`px-3 py-2 text-sm font-medium transition-colors ${isActive(item.path)
                         ? 'text-blue-600 border-b-2 border-blue-600'
-                        : 'text-gray-700 hover:text-blue-600'
-                    }`}
+                        : 'text-gray-700 hover:text-blue-600'}`}
                   >
                     {item.name}
                   </Link>
@@ -86,7 +85,7 @@ const Header = () => {
               <Phone className="h-4 w-4" />
               <span className="font-semibold">+91 99000 77665</span>
             </a>
-            
+
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
@@ -129,9 +128,7 @@ const Header = () => {
                     <Link
                       to={item.path}
                       onClick={() => setIsMenuOpen(false)}
-                      className={`block py-2 text-sm font-medium transition-colors ${
-                        isActive(item.path) ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
-                      }`}
+                      className={`block py-2 text-sm font-medium transition-colors ${isActive(item.path) ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
                     >
                       {item.name}
                     </Link>
@@ -151,6 +148,6 @@ const Header = () => {
       </AnimatePresence>
     </header>
   );
-};
+}
 
 export default Header;

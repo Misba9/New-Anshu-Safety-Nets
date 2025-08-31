@@ -90,7 +90,7 @@ const PigeonSafetyNets = () => {
             <AnimatedSection animation="slideRight">
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/434213/pexels-photo-434213.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/images/Pigeon-Safety-Nets.jpg"
                   alt="Pigeon safety nets installation"
                   className="rounded-2xl shadow-2xl"
                 />
