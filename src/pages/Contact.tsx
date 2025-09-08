@@ -158,6 +158,7 @@ const Contact = () => {
                   <a
                     href="tel:+919900077665"
                     className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors"
+                      accessKey="0a138f90-955d-4c66-82d8-2e61d5541693"
                   >
                     Call +91 99000 77665
                   </a>
@@ -166,6 +167,8 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold transition-colors"
+accessKey="0a138f90-955d-4c66-82d8-2e61d5541693"
+
                   >
                     WhatsApp Us
                   </a>
