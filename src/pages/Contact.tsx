@@ -3,9 +3,13 @@ import AnimatedSection from '../components/AnimatedSection';
 import CallbackForm from '../components/CallbackForm';
 import { Phone, MapPin, Clock, Mail, MessageCircle } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
+import useWeb3forms from '@web3forms/react';
+import { useForm } from "react-hook-form"
+import { useState } from 'react';
 
 const Contact = () => {
-
+  const [accessKey, setAccessKey] = useState( '0a138f90-955d-4c66-82d8-2e61d5541693');
+  const {register, reset, handleSubmit} = useForm();
    const contactInfo = [
     {
       icon: <Phone className="h-6 w-6 text-blue-600" />,
@@ -158,7 +162,7 @@ const Contact = () => {
                   <a
                     href="tel:+919900077665"
                     className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors"
-                      accessKey="0a138f90-955d-4c66-82d8-2e61d5541693"
+                      accessKey={accessKey}
                   >
                     Call +91 99000 77665
                   </a>
