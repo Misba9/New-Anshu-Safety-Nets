@@ -14,7 +14,7 @@ const Home = () => {
       title: 'Balcony Safety Nets',
       description: 'Premium quality balcony safety nets to prevent accidents and ensure child safety. Durable, weather-resistant, and professionally installed.',
       icon: <Shield className="h-6 w-6 text-blue-600" />,
-      imageUrl: '/images/Balcony-Safety-Nets.jpg',
+      imageUrl: '/images/2.jpeg',
       link: '/balcony-safety-nets',
       features: ['Weather resistant', 'Child-safe installation', 'Durable materials']
     },
@@ -22,7 +22,7 @@ const Home = () => {
       title: 'Children Safety Nets',
       description: 'Specialized safety nets designed specifically for child protection. Soft, non-toxic materials that provide maximum safety.',
       icon: <Baby className="h-6 w-6 text-green-600" />,
-      imageUrl: '/images/Children-Safety-Nets.jpg',
+      imageUrl: '/images/6.jpeg',
       link: '/children-safety-nets',
       features: ['Non-toxic materials', 'Child-friendly design', 'Extra strong mesh']
     },
@@ -54,7 +54,7 @@ const Home = () => {
       title: 'Balcony Invisible Grid',
       description: 'Invisible grids that provide safety without compromising the aesthetic appeal of your balcony view.',
       icon: <Grid3X3 className="h-6 w-6 text-cyan-600" />,
-      imageUrl: '/images/Balcony-Invisible-Grid-pages.png',
+      imageUrl: '/images/9.jpeg',
       link: '/balcony-invisible-grid',
       features: ['Nearly invisible', 'Modern design', 'Unobstructed view']
     }
