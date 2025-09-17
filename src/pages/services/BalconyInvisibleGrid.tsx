@@ -55,10 +55,10 @@ const BalconyInvisibleGrid = () => {
             <AnimatedSection animation="slideLeft">
               <div>
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                  Balcony Invisible Grid in <span className="text-cyan-600">Bengaluru</span>
+                  Balcony Invisible Grill in <span className="text-cyan-600">Bengaluru</span>
                 </h1>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Revolutionary invisible grid system that provides complete balcony safety 
+                  Revolutionary invisible Grill system that provides complete balcony safety 
                   without compromising your view. Nearly transparent design with maximum protection.
                 </p>
                 <div className="space-y-3 mb-8">
@@ -92,7 +92,7 @@ const BalconyInvisibleGrid = () => {
               <div className="relative">
                 <img
                   src="/images/Balcony-Invisible-Grid-pages.png"
-                  alt="Balcony invisible grid system"
+                  alt="Balcony invisible Grill system"
                   className="rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-cyan-600 text-white p-6 rounded-xl shadow-lg">
@@ -110,7 +110,7 @@ const BalconyInvisibleGrid = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Invisible Grid System?
+              Why Choose Invisible Grill System?
             </h2>
             <p className="text-lg text-gray-600">
               The perfect balance of safety and aesthetics for modern balconies
@@ -144,7 +144,7 @@ const BalconyInvisibleGrid = () => {
             <AnimatedSection animation="slideLeft">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  How Invisible Grid Works
+                  How Invisible Grill Works
                 </h2>
                 <div className="space-y-6">
                   <div>
@@ -152,8 +152,8 @@ const BalconyInvisibleGrid = () => {
                     <p className="text-gray-600">High-tensile stainless steel cables (1.5mm diameter) create an almost invisible barrier</p>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Precise Grid Pattern</h3>
-                    <p className="text-gray-600">50mm x 50mm grid spacing provides complete safety while maintaining transparency</p>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Precise Grill Pattern</h3>
+                    <p className="text-gray-600">50mm x 50mm Grill spacing provides complete safety while maintaining transparency</p>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Secure Anchoring</h3>
@@ -189,7 +189,7 @@ const BalconyInvisibleGrid = () => {
                     <span className="text-2xl font-bold text-cyan-600">₹95/sq.ft</span>
                   </div>
                   <p className="text-sm text-gray-600">
-                    Premium invisible grid with professional installation
+                    Premium invisible Grill with professional installation
                   </p>
                 </div>
               </div>
@@ -203,17 +203,17 @@ const BalconyInvisibleGrid = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Invisible Grid vs Traditional Nets
+              Invisible Grill vs Traditional Nets
             </h2>
             <p className="text-lg text-gray-600">
-              See why invisible grid is the superior choice for modern balconies
+              See why invisible Grill is the superior choice for modern balconies
             </p>
           </AnimatedSection>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <AnimatedSection animation="slideLeft">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-cyan-600 mb-6 text-center">Invisible Grid System</h3>
+                <h3 className="text-2xl font-bold text-cyan-600 mb-6 text-center">Invisible Grill System</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-green-600" />
@@ -310,7 +310,7 @@ const BalconyInvisibleGrid = () => {
               {
                 step: '02',
                 title: 'Custom Design',
-                description: 'Custom grid layout designed for your specific balcony dimensions'
+                description: 'Custom Grill layout designed for your specific balcony dimensions'
               },
               {
                 step: '03',
@@ -403,7 +403,7 @@ const BalconyInvisibleGrid = () => {
                   Experience the Future of Balcony Safety
                 </h2>
                 <p className="text-xl text-cyan-100 mb-6">
-                  Don't compromise on your view. Get the revolutionary invisible grid system 
+                  Don't compromise on your view. Get the revolutionary invisible Grill system 
                   that provides complete safety without visual barriers.
                 </p>
                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
@@ -427,7 +427,7 @@ const BalconyInvisibleGrid = () => {
 
             <AnimatedSection animation="slideRight">
               <CallbackForm 
-                title="Get Invisible Grid Quote"
+                title="Get Invisible Grill Quote"
                 subtitle="Premium balcony protection with unobstructed views"
                 className="bg-white"
               />

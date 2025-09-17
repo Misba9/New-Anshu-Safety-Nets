@@ -51,8 +51,8 @@ const Home = () => {
       features: ['Custom sizing', 'Industrial grade', 'Fire resistant options']
     },
     {
-      title: 'Balcony Invisible Grid',
-      description: 'Invisible grids that provide safety without compromising the aesthetic appeal of your balcony view.',
+      title: 'Balcony Invisible Grill',
+      description: 'Invisible grills that provide safety without compromising the aesthetic appeal of your balcony view.',
       icon: <Grid3X3 className="h-6 w-6 text-cyan-600" />,
       imageUrl: '/images/9.jpeg',
       link: '/balcony-invisible-grid',
